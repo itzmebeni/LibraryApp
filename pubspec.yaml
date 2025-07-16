@@ -1,0 +1,41 @@
+name: my_beni
+description: A new Flutter project.
+
+# Prevent publishing to pub.dev
+publish_to: 'none'
+
+# Versioning
+version: 1.0.0+1
+
+# Dart SDK environment
+environment:
+  sdk: ^3.8.1
+
+# Dependencies
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.6
+  cupertino_icons: ^1.0.8
+
+# Dev dependencies
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+# Flutter-specific settings
+flutter:
+  uses-material-design: true
+
+  # To add assets:
+  # assets:
+  #   - images/my_image.png
+
+  # To add custom fonts:
+  # fonts:
+  #   - family: CustomFont
+  #     fonts:
+  #       - asset: fonts/CustomFont-Regular.ttf
+  #       - asset: fonts/CustomFont-Bold.ttf
+  #         weight: 700
